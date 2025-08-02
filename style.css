@@ -1,139 +1,138 @@
 /* ------------------------
-   1. Reset e Base Styles                                                 
--------------------------*/                
+   1. Reset e Base Styles
+-------------------------*/
 * {
-  margin: 0;  /* Rimuove il margine predefinito */
-  padding: 0; /* Rimuove il padding predefinito */
-  box-sizing: border-box; /* Imposta il box-sizing per includere padding e bordi nella larghezza e altezza */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html, body {
-  height: 100%; /* Imposta l'altezza al 100% per il body */
-  font-family: Arial, sans-serif; /* Imposta il font predefinito */
-  background: linear-gradient(135deg, #e9ecef 0%, #f8fafc 100%);  /* Sfondo con gradiente */
-  color: #333;  /* Colore del testo predefinito */
-  line-height: 1.6; /* Altezza della linea per migliorare la leggibilità */
-  padding: 60px 0;  /* Padding superiore e inferiore per evitare che il contenuto sia troppo vicino ai bordi */
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #e9ecef 0%, #f8fafc 100%);
+  color: #333;
+  line-height: 1.6;
+  padding: 60px 0;
 }
-
 
 /* ------------------------
    2. Layout Principale
 -------------------------*/
 .container {
-  max-width: 900px; /* Larghezza massima del contenitore */
-  margin: 0 auto; /* Centra il contenitore */
-  padding: 48px 32px; /* Padding interno per il contenitore */
-  background-color: #fff; /* Colore di sfondo bianco per il contenitore */
-  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.08); /* Ombra per dare profondità */
-  border-radius: 18px;    /* Raggio di curvatura per gli angoli del contenitore */
-  border: 1px solid #f0f0f0;  /* Bordo leggero per il contenitore */
-}   
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 48px 32px;
+  background-color: #fff;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 18px;
+  border: 1px solid #f0f0f0;
+}
 
 /* ------------------------
    3. Tipografia
 -------------------------*/
 h1 {
-  font-size: 36px;  /* Dimensione del titolo principale */
-  color: #0077cc; /* Colore del titolo */
-  text-align: center; /* Centra il titolo */
-  margin-bottom: 20px;  /* Margine inferiore per distanziare dal testo sottostante */
+  font-size: 36px;
+  color: #0077cc;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 p {
-  font-size: 20px;  /* Dimensione del testo per i paragrafi */
-  max-width: 700px; /* Larghezza massima per i paragrafi */
-  margin: 0 auto 20px;  /* Margine superiore e inferiore per distanziare i paragrafi */
-  color: #222;  /* Colore del testo per i paragrafi */
-  text-align: center; /* Centra il testo dei paragrafi */
-  line-height: 1.6; /* Altezza della linea per migliorare la leggibilità */
+  font-size: 20px;
+  max-width: 700px;
+  margin: 0 auto 20px;
+  color: #222;
+  text-align: center;
+  line-height: 1.6;
 }
 
 /* ------------------------
    4. Immagini
 -------------------------*/
 img {
-  width: 100%;          /* Adatta alla larghezza del contenitore */
-  max-width: 200px;   /* Larghezza massima per le immagini */ 
-  height: auto;          /* Mantiene le proporzioni */
-  display: block;         /* Rende l'immagine un blocco per centrarla */
-  margin: 0 auto 30px;  /* Centra l'immagine e distanzia dal testo sottostante */
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto 30px;
 }
 
 /* ------------------------
    5. Link
 -------------------------*/
 a {
-  font-size: 20px;  /* Dimensione del testo per i link */
-  font-weight: bold;   /* Grassetto per i link */
-  display: block;   /* Rende il link un blocco per occupare tutta la larghezza */
-  text-align: center;  /* Centra il testo del link */
-  margin-top: 20px;  /* Margine superiore per distanziare dal testo precedente */
-  color: #0066cc;   /* Colore del link */
-  text-decoration: none;   /* Rimuove la sottolineatura */
-}   
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #0066cc;
+  text-decoration: none;
+}
 
-a:hover {  /* Effetto al passaggio del mouse */          
-  color: #004080;  /* Colore più scuro al passaggio del mouse */
-  text-decoration: underline;   /* Sottolineatura al passaggio del mouse */ 
+a:hover {
+  color: #004080;
+  text-decoration: underline;
 }
 
 /* ------------------------
    6. Sezioni: About, Learning, Roadmap
 -------------------------*/
-.about, .learning, .roadmap {        
-  max-width: 700px; /* Larghezza massima per le sezioni */
-  margin: 40px auto;  /* Margine superiore e inferiore per distanziare le sezioni */
-  text-align: center;  /* Centra il testo all'interno delle sezioni */
+.about, .learning, .roadmap {
+  max-width: 700px;
+  margin: 40px auto;
+  text-align: center;
 }
 
-.about h2, .learning h2, .roadmap h2 {       
-  font-size: 24px;  /* Dimensione del titolo per le sezioni */
-  color: #0077cc;  /* Colore del titolo */ 
-  margin-bottom: 10px;  /* Margine inferiore per distanziare dal testo sottostante */
-} 
+.about h2, .learning h2, .roadmap h2 {
+  font-size: 24px;
+  color: #0077cc;
+  margin-bottom: 10px;
+}
 
 .learning ul, .roadmap ul {
-  list-style: none;  /* Rimuove i punti elenco predefiniti */
-  padding: 0;  /* Rimuove il padding predefinito */
+  list-style: none;
+  padding: 0;
 }
 
-.learning li, .roadmap li {   
-  font-size: 18px;  /* Dimensione del testo per gli elementi della lista */
-  margin: 6px 0;   /* Margine superiore e inferiore per distanziare gli elementi della lista */
-  color: #333;  /* Colore del testo per gli elementi della lista */
-  line-height: 1.4;  /* Altezza della linea per migliorare la leggibilità */
+.learning li, .roadmap li {
+  font-size: 18px;
+  margin: 6px 0;
+  color: #333;
+  line-height: 1.4;
 }
 
 .roadmap {
-  background: #f9f9f9;  /* Colore di sfondo per la roadmap */
-  padding: 24px 32px;  /* Padding interno per la roadmap */
-  border-radius: 12px;  /* Raggio di curvatura per gli angoli della roadmap */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);  /* Ombra per dare profondità */
+  background: #f9f9f9;
+  padding: 24px 32px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-.roadmap li::before {  
-  content: "•";  /* Punto elenco personalizzato */
-  color: #0077cc;  /* Colore del punto elenco */
-  font-weight: bold;  /* Grassetto per il punto elenco */
-  display: inline-block;    /* Rende il punto elenco un blocco per poter impostare dimensioni */
-  width: 20px;  /* Larghezza fissa per il punto elenco */
+.roadmap li::before {
+  content: "•";
+  color: #0077cc;
+  font-weight: bold;
+  display: inline-block;
+  width: 20px;
 }
 
 /* ------------------------
    7. Responsive (Mobile)
 -------------------------*/
-@media (max-width: 600px) {    .container {      
-    padding: 20px;  /* Riduce il padding per schermi piccoli */
-    max-width: 90%;  /* Aumenta la larghezza massima per schermi piccoli */
-  }   
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+    max-width: 90%;
+  }
 
-  h1 {         
-    font-size:  28px;  /* Riduce la dimensione del titolo per schermi piccoli */
+  h1 {
+    font-size: 28px;
   }
 
   p, a {
-    font-size: 18px;  /* Riduce la dimensione del testo per paragrafi e link */
+    font-size: 18px;
   }
 }
- 
