@@ -33,7 +33,7 @@ Benvenuto! Questo è il mio **primo progetto web** creato con **HTML5** e **CSS3
 
 ## 🙋‍♂️ Chi sono
 
-Mi chiamo Francesco. Sono all'inizio del mio percorso da sviluppatore web e sto costruendo competenze solide e certificate per diventare uno sviluppatore front-end / full-stack e lavorare anche da freelance.
+Mi chiamo Francesco. Sono all'inizio del mio percorso da sviluppatore web e sto costruendo competenze solide e certificate per diventare uno sviluppatore front-end / full-stack.
 
 ---
 
